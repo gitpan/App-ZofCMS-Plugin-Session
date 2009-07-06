@@ -1,0 +1,22 @@
+---
+name: App-ZofCMS-Plugin-Session
+version: 0.0102
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: plugin for storing data across requests
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  DBI: 1.607
+  Storable: 2.18
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::Session:
+    file: lib/App/ZofCMS/Plugin/Session.pm
+    version: 0.0102
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

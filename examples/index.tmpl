@@ -1,0 +1,28 @@
+{
+    valid_pages => {
+        dirs => [
+            '/',
+            '/test/',
+        ],
+    },
+    data_store => '../zcms_site/data',
+    templates    => '../zcms_site/templates',
+    template_defaults => {
+        conf => {
+            base => 'base.tmpl',
+        },
+        plugins => [
+            qw/Session/,
+        ],
+        plugins2 => [
+            qw/Session/,
+        ],
+    },
+
+    plug_session => {
+        dsn     => "DBI:mysql:database=test;host=localhost",
+        user    => 'test',
+        pass    => 'test',
+        create_table => 1,
+    },
+}
