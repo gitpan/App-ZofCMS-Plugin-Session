@@ -3,9 +3,9 @@ package App::ZofCMS::Plugin::Session;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
-use Storable qw/freeze thaw/;
+use Storable (qw/freeze thaw/);
 use DBI;
 
 sub new { bless {}, shift }
@@ -107,6 +107,8 @@ sub process {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

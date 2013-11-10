@@ -2,10 +2,13 @@ Build.PL
 Changes
 MANIFEST
 README
+LICENSE
 lib/App/ZofCMS/Plugin/Session.pm
 t/00-load.t
-t/pod-coverage.t
-t/pod.t
+xt/pod-coverage.t
+xt/pod.t
+xt/kwalitee.t
 examples/index.tmpl
 Makefile.PL
 META.yml
+META.json

@@ -1,8 +1,11 @@
 Revision history for App-ZofCMS-Plugin-Session
 
-0.0102  July 1, 2008
-        Added docs and made CPAN ready
+0.0103  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0101  December 24, 2008
-        First version, released on an unsuspecting world.
+0.0102  2008-07-01
+        - Added docs and made CPAN ready
+
+0.0101  2008-12-24
+        - First version, released on an unsuspecting world.
 

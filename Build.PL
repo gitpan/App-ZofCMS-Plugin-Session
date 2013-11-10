@@ -13,7 +13,9 @@ my $builder = Module::Build->new(
     requires => {
         'Storable' => 2.18,
         'DBI'      => 1.607,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-Session-*' ],
     create_makefile_pl => 'traditional',
 );
